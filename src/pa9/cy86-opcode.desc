@@ -1,0 +1,171 @@
+data8 rI8
+data16 rI16
+data32 rI32
+data64 rI64
+move8 w8 r8
+move16 w16 r16
+move32 w32 r32
+move64 w64 r64
+move80 w80 r80
+jump ar64
+jumpif br8 ar64
+call ar64
+ret
+not8 w8 r8
+not16 w16 r16
+not32 w32 r32
+not64 w64 r64
+and8 w8 r8 r8
+and16 w16 r16 r16
+and32 w32 r32 r32
+and64 w64 r64 r64
+or8 w8 r8 r8
+or16 w16 r16 r16
+or32 w32 r32 r32
+or64 w64 r64 r64
+xor8 w8 r8 r8
+xor16 w16 r16 r16
+xor32 w32 r32 r32
+xor64 w64 r64 r64
+lshift8 iw8 ir8 ur8
+lshift16 iw16 ir16 ur8
+lshift32 iw32 ir32 ur8
+lshift64 iw64 ir64 ur8
+srshift8 sw8 sr8 ur8
+srshift16 sw16 sr16 ur8
+srshift32 sw32 sr32 ur8
+srshift64 sw64 sr64 ur8
+urshift8 uw8 ur8 ur8
+urshift16 uw16 ur16 ur8
+urshift32 uw32 ur32 ur8
+urshift64 uw64 ur64 ur8
+s8convf80 fw80 sr8
+s16convf80 fw80 sr16
+s32convf80 fw80 sr32
+s64convf80 fw80 sr64
+u8convf80 fw80 ur8
+u16convf80 fw80 ur16
+u32convf80 fw80 ur32
+u64convf80 fw80 ur64
+f32convf80 fw80 fr32
+f64convf80 fw80 fr64
+f80convs8 sw8  fr80
+f80convs16 sw16 fr80
+f80convs32 sw32 fr80
+f80convs64 sw64 fr80
+f80convu8 uw8 fr80
+f80convu16 uw16 fr80
+f80convu32 uw32 fr80
+f80convu64 uw64 fr80
+f80convf32 fw32 fr80
+f80convf64 fw64 fr80
+iadd8 iw8 ir8 ir8
+iadd16 iw16 ir16 ir16
+iadd32 iw32 ir32 ir32
+iadd64 iw64 ir64 ir64
+fadd32 fw32 fr32 fr32
+fadd64 fw64 fr64 fr64
+fadd80 fw80 fr80 fr80
+isub8 iw8 ir8 ir8
+isub16 iw16 ir16 ir16
+isub32 iw32 ir32 ir32
+isub64 iw64 ir64 ir64
+fsub32 fw32 fr32 fr32
+fsub64 fw64 fr64 fr64
+fsub80 fw80 fr80 fr80
+smul8 sw8 sr8 sr8
+smul16 sw16 sr16 sr16
+smul32 sw32 sr32 sr32
+smul64 sw64 sr64 sr64
+umul8 uw8 ur8 ur8
+umul16 uw16 ur16 ur16
+umul32 uw32 ur32 ur32
+umul64 uw64 ur64 ur64
+fmul32 fw32 fr32 fr32
+fmul64 fw64 fr64 fr64
+fmul80 fw80 fr80 fr80
+sdiv8 sw8 sr8 sr8
+sdiv16 sw16 sr16 sr16
+sdiv32 sw32 sr32 sr32
+sdiv64 sw64 sr64 sr64
+udiv8 uw8 ur8 ur8
+udiv16 uw16 ur16 ur16
+udiv32 uw32 ur32 ur32
+udiv64 uw64 ur64 ur64
+fdiv32 fw32 fr32 fr32
+fdiv64 fw64 fr64 fr64
+fdiv80 fw80 fr80 fr80
+smod8 sw8 sr8 sr8
+smod16 sw16 sr16 sr16
+smod32 sw32 sr32 sr32
+smod64 sw64 sr64 sr64
+umod8 uw8 ur8 ur8
+umod16 uw16 ur16 ur16
+umod32 uw32 ur32 ur32
+umod64 uw64 ur64 ur64
+ieq8 wb8 ir8 ir8
+ieq16 wb8 ir16 ir16
+ieq32 wb8 ir32 ir32
+ieq64 wb8 ir64 ir64
+feq32 wb8 fr32 fr32
+feq64 wb8 fr64 fr64
+feq80 wb8 fr80 fr80
+ine8 wb8 ir8 ir8
+ine16 wb8 ir16 ir16
+ine32 wb8 ir32 ir32
+ine64 wb8 ir64 ir64
+fne32 wb8 fr32 fr32
+fne64 wb8 fr64 fr64
+fne80 wb8 fr80 fr80
+slt8 wb8 sr8 sr8
+slt16 wb8 sr16 sr16
+slt32 wb8 sr32 sr32
+slt64 wb8 sr64 sr64
+ult8 wb8 ur8 ur8
+ult16 wb8 ur16 ur16
+ult32 wb8 ur32 ur32
+ult64 wb8 ur64 ur64
+flt32 wb8 fr32 fr32
+flt64 wb8 fr64 fr64
+flt80 wb8 fr80 fr80
+sgt8 wb8 sr8 sr8
+sgt16 wb8 sr16 sr16
+sgt32 wb8 sr32 sr32
+sgt64 wb8 sr64 sr64
+ugt8 wb8 ur8 ur8
+ugt16 wb8 ur16 ur16
+ugt32 wb8 ur32 ur32
+ugt64 wb8 ur64 ur64
+fgt32 wb8 fr32 fr32
+fgt64 wb8 fr64 fr64
+fgt80 wb8 fr80 fr80
+sle8 wb8 sr8 sr8
+sle16 wb8 sr16 sr16
+sle32 wb8 sr32 sr32
+sle64 wb8 sr64 sr64
+ule8 wb8 ur8 ur8
+ule16 wb8 ur16 ur16
+ule32 wb8 ur32 ur32
+ule64 wb8 ur64 ur64
+fle32 wb8 fr32 fr32
+fle64 wb8 fr64 fr64
+fle80 wb8 fr80 fr80
+sge8 wb8 sr8 sr8
+sge16 wb8 sr16 sr16
+sge32 wb8 sr32 sr32
+sge64 wb8 sr64 sr64
+uge8 wb8 ur8 ur8
+uge16 wb8 ur16 ur16
+uge32 wb8 ur32 ur32
+uge64 wb8 ur64 ur64
+fge32 wb8 fr32 fr32
+fge64 wb8 fr64 fr64
+fge80 wb8 fr80 fr80
+syscall0 w64 r64
+syscall1 w64 r64 r64
+syscall2 w64 r64 r64 r64
+syscall3 w64 r64 r64 r64 r64
+syscall4 w64 r64 r64 r64 r64 r64
+syscall5 w64 r64 r64 r64 r64 r64 r64
+syscall6 w64 r64 r64 r64 r64 r64 r64 r64
+
